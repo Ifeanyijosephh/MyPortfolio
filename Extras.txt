@@ -1,0 +1,822 @@
+        <div class="mainLoadWrapper" id="mainLoader">
+    <div class="nameLetters" id="i">I</div>
+    <div class="nameLetters" id="f">F</div>
+    <div class="nameLetters" id="e">E</div>
+    <div class="nameLetters" id="c">C</div>
+    <div class="nameLetters" id="o">O</div>
+</div>
+            <header class="headerSection">
+                <img src="images/mainlogo.png" class="myLogo" id="myLogo" alt="My Logo">
+                <nav class="navLinks" id="navLinks">
+                    <a href="" disabled class="navLink" id="menuWord"> <img src="images/mainlogo.png" class="myLogo" id="myLogo" alt="My Logo"> </a><hr id="horizontal">
+                    <a href="#heroSection" class="navLink" aria-label="Hero Section Button">Home</a>
+                    <a href="#aboutSection" class="navLink" aria-label="About Section Button">About Me</a>
+                    <a href="#skillSection" class="navLink" aria-label="skillSection Section Button"> Skills </a>
+                    <a href="#projectSection" class="navLink" aria-label="Project Section Button"> Projects </a>
+                    <a href="#contactSection" class="navLink" aria-label="Contact Section Button" id="contactNavBtn"> Contact Me</a>
+                </nav>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </header>
+        <main>
+            <section id="heroSection" class="heroSection" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <p id="pHello"> < Hello, I'm > <br>
+                <h1 id="myName"> Ifeanyi </h1><br>
+                <p id="mySkill"> A Full Stack developer <br> & Digital problem solver </p><br>
+                <p id="heroIntro"> I design and build <strong>modern, responsive, and user-focused websites</strong> that don't just look great but also work seamlessly.<br>
+                From concept to code, i turn ideas into functional, engaging, and high performing web experiences.<br>
+            Your Vision, my expertise - let's build something expectional</p><br>
+
+            <button class="viewCTA"><a href="#projectSection"> View My Work </a></button>
+            <br><br>
+            <button class="getCTA"><a href="#contactSection"> Get in Touch </a></a></button>
+            </section>
+            <section class="aboutSection" id="aboutSection" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <article id="aboutMe">
+                    <h2 id="aboutHeading"> About <span class="me"> Me </span></h2>
+                    <p id="aboutText1"> I'm a Passionate Web Developer driven by curiosity, creativity, and a deep love for technology. My work goes beyond writing clean, efficient code - I focus on solving problems, crafting seamless user experiences, and bringing ideas to life on the web.</p><br>
+                    <p id="aboutText2"> With a strong foundation in <strong>HTML, CSS and JavaScript</strong>, I also leverage tools like <strong>Firebase </strong>to build dynamic, scalable, and secure applications. From authentication and real-time database to cloud functions and hosting, I integrate backend power into intuitive, responsive frontends.</p><br>
+                    <p id="aboutText3"> Technology for me is a playground of endless possibities, and I'm exploring new tools, frameworks, and ideas to stay ahead in the ever-evolving industry. Every project is an opportunity to learn, innovate and push beyond limits - whether it's building responsive interfaces, optimizing performance, or experimenting with cutting-edge solutions.</p><br>
+                    <p id="aboutText4">My mission is simple: <strong>to craft web experiences that don't just work, but inspire.</strong></p>
+                </article>
+                <aside class="numberRate">
+                    <div class="ratedAspects"> <span class="rateNumbers">10+</span> <br> Projects</div>
+                    <div class="ratedAspects"> <span class="rateNumbers">5+</span><br> Technologies</div>
+                    <div class="ratedAspects"> <span class="rateNumbers">100%</span><br> Dedication</div>
+                </aside>
+                <div class="profilePicture" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <img src="images/profile.png" alt="Ifeanyi Joseph" aria-label="Ifeanyi's Profile Picture" id="mainPic">
+                    <h3 id="profileName">Ifeanyi Joseph</h3>
+                    <br>
+                    <p id="profileSkill">Website Developer</p>
+                    <p id="profileDes"> Turning ideas into reality, one pixel at a time</p>
+                </div>
+            </section>
+            <section class="skillSection" id="skillSection" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <h2 class="skillHeading">Skills & <span class="expertise">Expertise</span></h2>
+                <p class="skillDes"> A comprehensive overview of my skills and proficiency levels across various technologies and development tools</p>
+                <div class="skillWrapper">
+                    <div class="skills"> 
+                        <h3>Technologies</h3>
+                        <label for="htmlMeter"> 
+                            <span class="labels"> HTML5</span>
+                            <span class="labels2"> 95%</span>
+                        </label>
+                        <br>
+                        <meter id="htmlMeter" value="95" min="0" max="100" aria-label="HTML meter" >95%</meter>
+                        <label for="cssMeter"> 
+                            <span class="labels"> CSS3</span>
+                            <span class="labels2"> 95%</span>
+                        </label>
+                        <br>
+                        <meter id="cssMeter" value="95" min="0" max="100" aria-label="CSS meter" >95%</meter>
+                        <label for="javaMeter"> 
+                            <span class="labels"> JavaScript</span>
+                            <span class="labels2"> 95%</span>
+                        </label>
+                        <br>
+                        <meter id="javaMeter" value="95" min="0" max="100" aria-label="JavaScript meter" >95%</meter>               
+                    </div>
+                    <div class="skills" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <h3>Development Tools</h3>
+                        <label for="gitMeter"> 
+                            <span class="labels"> Git/GitHub</span>
+                            <span class="labels2"> 90%</span>
+                        </label>
+                        <br>
+                        <meter id="gitMeter" value="90" min="0" max="100" aria-label="HTML meter" >90%</meter>
+                        <label for="fireMeter"> 
+                            <span class="labels"> Firebase</span>
+                            <span class="labels2"> 80%</span>
+                        </label>
+                        <br>
+                        <meter id="fireMeter" value="80" min="0" max="100" aria-label="Firebase meter" >80%</meter>
+                    </div>
+                    <div class="skills" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <h3>Design & UI/UX</h3>
+                        <label for="responsiveMeter"> 
+                            <span class="labels"> Responsive Design</span>
+                            <span class="labels2"> 95%</span>
+                        </label>
+                        <br>
+                        <meter id="responsiveMeter" value="95" min="0" max="100" aria-label="Responsive Desgin meter" >95%</meter>
+                        <label for="cssanimationMeter"> 
+                            <span class="labels"> CSS Animation</span>
+                            <span class="labels2"> 90%</span>
+                        </label>
+                        <br>
+                        <meter id="cssMeter" value="90" min="0" max="100" aria-label="CSS animation meter" >90%</meter>
+                        <label for="materialMeter"> 
+                            <span class="labels"> Material Design</span>
+                            <span class="labels2"> 95%</span>
+                        </label>
+                        <br>
+                        <meter id="materialMeter" value="95" min="0" max="100" aria-label="Material Desgin meter" >95%</meter>
+                        <label for="accessibilityMeter"> 
+                            <span class="labels"> Accessibility</span>
+                            <span class="labels2"> 98%</span>
+                        </label>
+                        <br>
+                        <meter id="accessibilityMeter" value="98" min="0" max="100" aria-label="Accessibility meter" >95%</meter>
+                    </div>
+                </div>
+                <div class="learningBox" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h3 id="learningHeading">Always <span id="learning">Learning</span> </h3>
+                    <p id="learningQuote">
+                        Fueled by curiosity, I'm constantly exploring new technologies and refining my skills to stay ahead in the ever-evolving tech world.<br>
+                        <strong>Always learning, always evolving.</strong>
+                    </p>
+                </div>
+            </section>
+            <section class="projectSection" id="projectSection" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <h3 id="projectHeading">Projects will be uploaded soon!!!</h3>
+            </section>
+            <section class="contactSection" id="contactSection">
+                <article id="contactText" data-aos="fade-up" data-aos-once="true">
+                    <h3 class="contactHeading">Get In <span id="touch">Touch</span></h3>
+                    <p class="contactMainText">
+                        Ready to start your next project? Let's collaborate and create something amazing together. I'm always excited to work on new challenges and innovative ideas.
+                    </p>
+                </article>
+            <div class="connectWrapper" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="socialsConnect" id="socialsConnect">
+                    <h3 id="socialsConnectHeading">Let's Connect</h3>
+                    <div class="userInfo">
+                    <span class="userIcon"><i class="fas fa-user"></i></span>
+                    <p class="userInfoText"><span class="emailText">Ifeanyi Joseph </span><br>
+                    Front-end Developer</p>
+                    </div>
+                    <div class="userInfo">
+                    <span class="userIcon"><i class="fas fa-message"></i></span>
+                    <p class="userInfoText"> <span class="emailText"> josephify304@gmail.com</span> <br>
+                    Avaliable for freelance work</p>
+                    </div>
+                </div>
+                <h3 class="followButtons">Follow me on:</h3>
+                <div class="socials1" >
+                    <div class="Cta">
+                      <p class="socialNames"><span class="box1"></span>
+                        <a href="https://www.linkedin.com/in/ifeanyichukwu-joseph-orji-234826360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andriod_app" aria-label="LinkedIn CTA button">LinkedIn </a></p>
+                    </div>
+                    <div class="Cta">
+                      <p class="socialNames"><span class="box2"></span> 
+                        <a href="https://x.com/ifeanyiijosephh?t=i-pXPYDOmlfmlcNoZcZ2w&s=09" aria-label="Twitter CTA button">Twitter</a></p>
+                    </div>
+                </div>
+                <div class="socials2">
+                    <div class="Cta">
+                      <p class="socialNames"><span class="box3"></span> 
+                        <a href="https://github.com/ifeanyijosephh" aria-label="Githunb CTA button">Github</a>
+                    </div>
+                    <div class="Cta">
+                      <p class="socialNames"><span class="box4"></span> 
+                        <a href="mailto:ifecodigitalservices@gmail.com" aria-label="Email CTA button"> Email </a></p>
+                    </div>
+                </div>
+            </div>
+                <div class="formWrapper" id="formWrapper" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h3 class="formHeading">Send a Message</h3>
+                    <form action="https://formspree.io/f/xqaloqrr" method="post" id="contactForm" role="form" aria-roledescription="Contact Form">
+                        <input type="text" id="name" name="name" placeholder="Your name" required aria-label="Name Input"><br>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Email Input"><br>
+                        <textarea id="textarea" name="message" placeholder="Your message..." required aria-label="Message Box"></textarea>
+                        <br>
+                        <button type="submit" id="submitButton" aria-label="Submite Message Button ">Send message</button>
+                    </form>
+            </section>
+            <section class="freelance" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <div class="freelanceWrapper">
+                    <h3 class="freelanceHeading">Ready to start a project?</h3>
+                    <p class="freelanceText">
+                        I am Avaliable for freelance opportunities, and exiciting new projects. Let's discuss how we can bring your ideas to life.
+                    </p>
+                    <button class="hireMe" onclick="window.location.href='https://wa.me/message/L4V24KRUGU7XE1'" aria-label="Hire Me CTA"> Hire Me </button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p> &copy; 2025 Ifeanyi Joseph. Crafted with passion and modern web technologies.</p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+        CSS 
+
+
+
+        ----------------------------------
+
+
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+:root {
+    --primaryBackground-color: rgb(65, 65, 255);
+    --mainPadding: 1rem;
+    --buttonPadding: 10px 15px 10px 15px;
+    --buttonRadius: 0.7rem;
+    --primary-color: #020617;   
+    --textColor: rgb(3, 155, 155);
+    --textShadow: 0 0 50px rgba(0, 64, 255, 0.311);
+    --fontSize: clamp(0.9rem, 1.8vw, 1.2rem);
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+ 
+body {
+    background-color: var(--primary-color);
+     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    color: var(--textColor);
+    font-size: var(--fontSize);
+}
+main {
+    box-sizing: border-box;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    padding: 2rem;
+    margin-top: 3rem;
+}
+button {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+button:active {
+    transform: scale(1.05);
+}
+.myLogo {
+    width: clamp(80px, 2vw, 100px);
+    height: clamp(26px, 2vh, 44px);
+    align-self: center;
+    padding-top: 1rem;
+}
+.navLinks {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    height:  clamp(300px, 80vh, 400px);
+    width: 100vw;
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 0rem 0 0 0;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    inset: 0 0 0 auto;
+    transform: translatey(-120%); 
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+.navLink {
+    text-decoration: none;
+    font-weight: 600;
+    color: cyan;
+    transition: transform 0.2s ease;
+}
+.navLink:focus {
+    transform: scale(1.07);
+    font-weight: bold;
+}
+.navLinks.active {
+    transform: translatey(0);
+    z-index: 50;
+}
+#menuWord {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-top: 5px;
+    color: cyan;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-self: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    z-index: 50;
+    border-radius: 5px;
+}
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(3px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+.bar {
+    width: 15px;
+    background-color: cyan;
+    height: 2px;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+}
+.headerSection {
+    display: flex;
+    width: 100%;
+    height: inherit;
+    justify-content: space-between;
+    padding: 1.6rem;
+    background-color: #020617cf;
+    backdrop-filter: blur(3px);
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    box-sizing: border-box;
+}
+.heroSection {
+    text-align: center;
+    margin-top: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;    
+}
+#heroIntro {
+    font-size: var(--fontSize);
+}
+#pHello {
+    font-weight: lighter;
+    font-size: var(--fontSize);
+}
+#myName {
+    color: blue;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: clamp(1.3rem, 4vw, 2rem);
+    text-shadow: var(--textShadow);
+}
+#mySkill {
+    font-weight: bolder;
+    color: cyan;
+    font-size: 1.3rem;
+}
+ 
+button a {
+    text-decoration: none;
+    color: cyan;
+}
+.viewCTA {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.viewCTA a {
+    background-color: var(--primaryBackground-color);
+    border: none;
+    padding: var(--buttonPadding);
+    border-radius: var(--buttonRadius);
+    font-weight: bold;
+}
+.viewCTA:hover {
+    transform: scale(1.1);
+}
+.viewCTA:active {
+    transform: translatey(-3px);
+}
+.getCTA {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1rem;
+}
+.getCTA:hover {
+    transform: scale(1.1);
+}
+.getCTA:active {
+    transform: translatey(-3px);
+}
+.getCTA a {
+    background-color: var(--primary-color);
+    border: 1px solid cyan;
+    padding: var(--buttonPadding);
+    border-radius: var(--buttonRadius);
+    margin-top: -20px;
+}
+#aboutSection {
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+}
+#aboutHeading {
+    color: cyan;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+#aboutMe p {
+    font-size: var(--fontSize);
+}
+.me {
+    color: var(--primaryBackground-color);
+}
+.ratedAspects {
+    color: cyan;
+    font-weight: 600;
+}
+.numberRate {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.numberRate .rateNumbers {
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: var(--primaryBackground-color);
+    font-size: 1.5rem;
+}
+.profilePicture {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 4rem;
+}
+#mainPic {
+    width: 100px;
+    height: 100px;
+    box-shadow: var(--textShadow);
+    border-radius: 120px;
+    justify-self: center;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+#profileName {
+    color: cyan;
+    font-weight: bold;
+    font-size: clamp(1.5rem, 3vw, 1.7rem);
+    padding-top: 1rem;
+}
+#profileSkill {
+    color: cyan;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+#profileDes {
+    font-size: var(--fontSize);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.skillSection {
+    margin-top: 3rem;
+    text-align: center;
+}
+.skillHeading {
+    color: cyan;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+.expertise {
+    color: var(--primaryBackground-color);
+}
+.skills {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 2rem;
+    text-align: left;
+}
+.skillDes {
+    margin-bottom: 3rem;
+}
+.skills h3 {
+    color: cyan;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-self: center;
+}
+meter {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+meter::-webkit-meter-bar {
+    background: var(--primary-color);
+}
+meter::-webkit-meter-optimum-value {
+    background: var(--primaryBackground-color);
+}
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.labels2 {
+    color: cyan;
+}
+.learningBox {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 4rem;
+    text-align: center;
+}
+#learningHeading {
+    color: cyan;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+#learning {
+    color: var(--primaryBackground-color);
+}
+#projectSection {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#projectHeading {
+    color: cyan; 
+}
+#contactSection {
+    text-align: center;
+}
+.contactHeading {
+    color: cyan;
+    font-weight: 800;
+}
+#touch {
+    color: var(--primaryBackground-color);
+}
+.contactMainText {
+    padding-top: 1rem;
+}
+.connectWrapper {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 2rem;
+    text-align: left;
+}
+#socialsConnectHeading {
+    color: cyan;
+    font-weight: bold;
+    padding: 0 0 1rem 0;
+    margin-bottom: 1.5rem;
+}
+.fas {
+    color: var(--primaryBackground-color);
+    background: var(--primary-color);
+    border-radius: 100%;
+    border: none;
+    padding: 8px;
+    width: 1rem;
+    height: 1rem;
+    align-self: center;
+}
+.userInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.userInfo p {
+    align-self: center;
+}
+.emailText {
+    color: cyan;
+    font-weight: bold;
+}
+.followButtons {
+    margin-bottom: 1rem;
+}
+.socials1, .socials2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem; 
+    justify-content: space-around;
+}
+.Cta {
+    padding: 0.4rem 1rem 0.4rem 1rem; 
+    border: 1px solid cyan;
+    width: 100px;
+    align-content: center;
+    text-align: center;
+    border-radius: var(--buttonRadius);
+    box-shadow: var(--textShadow);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.box1 {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 2px;
+}
+.box2 {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background-color: pink;
+    border-radius: 2px;
+}
+.box3 {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background-color: skyblue;
+    border-radius: 2px;
+}
+.box4 {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background-color: orange;
+    border-radius: 2px;
+}
+.socialNames a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold
+}
+.formWrapper {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 2rem;
+    text-align: left;
+}
+.formHeading {
+    color: cyan;
+    margin-bottom: 1rem;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    background: transparent;
+    border: 1px solid var(--textColor);
+    margin-top: 1rem;
+    color: cyan;
+    outline: none;
+    border-radius: var(--buttonRadius);
+}
+textarea {
+    resize: none;
+    height: 5rem;
+}
+#submitButton {
+    padding: var(--buttonPadding);
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: var(--buttonRadius);
+    border: none;
+    color: cyan;
+    font-weight: bold;
+    background: var(--primaryBackground-color);
+}
+.freelanceWrapper {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: var(--textShadow);
+    justify-self: center;
+    margin-top: 2rem;
+    text-align: left;
+}
+.hireMe {
+    background-color: var(--primaryBackground-color);
+    border: none;
+    color: cyan;
+    padding: var(--buttonPadding);
+    border-radius: var(--buttonRadius);
+    font-weight: bold;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    justify-content: center;
+}
+.freelanceText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.freelanceHeading {
+    font-weight: 700;
+    color: cyan;
+}
+footer {
+    margin-top: 5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid cyan;
+}
+@media (min-width: 689px) {
+    header {
+        padding: 5px;
+    }
+    :root {
+        --fontSize: clamp(0.7rem, 1.5vw, 1rem);
+    }
+    .headerSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    .navLinks {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        position: relative;
+        right: 0;
+        top: 1.2rem;
+        height: 1rem;
+        background: transparent;
+        align-content: center;
+        justify-content: right;
+        padding-top: 1rem;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    #myLogo {
+    width: 100px;
+    height: 34px;
+    align-self: center;
+    }
+    #horizontal {
+        display: none;
+    }
+    #menuWord {
+        display: none;
+    }
+    .navLink {
+        font-weight: bold;
+        font-size: var(--fontSize);
+        align-self: center;
+    }
+    .hamburger {
+        display: none;
+    }
+    #contactNavBtn {
+        background-color: var(--primaryBackground-color);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-radius: var(--buttonRadius);
+    }
+    #contactNavBtn:hover {
+    transform: scale(1.1);
+    }
+    #contactNavBtn:active {
+    transform: translatey(-3px);
+    }
+}
+
