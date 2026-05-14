@@ -340,13 +340,13 @@ function ProjectCard({ title, description, imageUrl, projectUrl, index, tag }) {
 
 function Project() {
   const projects = [
-    // {
-    //   title: "Project One",
-    //   description: "A brief description of Project One. Built with modern tooling and a focus on performance.",
-    //   imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80",
-    //   projectUrl: "https://example.com/project-one",
-    //   tag: "Web App",
-    // },
+    {
+      title: "AcctzHub",
+      description: "Digital store for purchasing virtual numbers, social media accounts, VPNs and streaming accounts. Built with modern tooling and a focus on performance.",
+      imageUrl: "https://res.cloudinary.com/dbiyi4r3r/image/upload/v1778719318/AcctzHubLogo_cbkv4a.png",
+      projectUrl: "https://acctzhub.com",
+      tag: "Web App"
+    }
     // {
     //   title: "Project Two",
     //   description: "A brief description of Project Two. Focused on elegant UI and smooth interactions.",
@@ -375,7 +375,7 @@ function Project() {
           <div className="section-divider" />
         </div>
 
-          <p className='text-cyan-400 text-center text-xl font-bold pb-6'> Projects coming soon! </p>
+          <p className='text-cyan-400 text-center text-xl font-bold pb-6'> Check out the projects </p>
 
         <div className="projects-grid">
           {projects.map((project, index) => (
