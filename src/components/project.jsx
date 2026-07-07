@@ -157,6 +157,7 @@ const styles = `
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: left top;
     transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1), filter 0.4s ease;
     filter: brightness(0.85) saturate(0.9);
   }
@@ -293,7 +294,7 @@ const styles = `
 `;
 
 function ProjectCard({ title, description, imageUrl, projectUrl, index, tag }) {
-  const [ Hovered, setHovered] = useState(false);
+  const [Hovered, setHovered] = useState(false);
 
   return (
     <div
@@ -343,24 +344,17 @@ function Project() {
     {
       title: "AcctzHub",
       description: "Digital store for purchasing virtual numbers, social media accounts, VPNs and streaming accounts. Built with modern tooling and a focus on performance.",
-      imageUrl: "https://res.cloudinary.com/dbiyi4r3r/image/upload/v1778719318/AcctzHubLogo_cbkv4a.png",
+      imageUrl: "https://res.cloudinary.com/wem7wn5v/image/upload/v1783444369/Screenshot_from_2026-07-07_17-30-40_kq19vf.png",
       projectUrl: "https://acctzhub.com",
       tag: "Web App"
+    },
+    {
+      title: "OmegaXmarketplace",
+      description: "Wallet-based marketplace for buying verified social media accounts and virtual phone numbers across Instagram, WhatsApp, Telegram, TikTok, Facebook and Twitter — secure, instant, and trusted.",
+      imageUrl: "https://res.cloudinary.com/wem7wn5v/image/upload/f_auto,q_auto/Screenshot_from_2026-07-07_17-46-12_mnrpvo",
+      projectUrl: "https://omegaxmarketplace.com",
+      tag: "Marketplace"
     }
-    // {
-    //   title: "Project Two",
-    //   description: "A brief description of Project Two. Focused on elegant UI and smooth interactions.",
-    //   imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
-    //   projectUrl: "https://example.com/project-two",
-    //   tag: "Dashboard",
-    // },
-    // {
-    //   title: "Project Three",
-    //   description: "A brief description of Project Three. Exploring new approaches to data visualization.",
-    //   imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
-    //   projectUrl: "https://example.com/project-three",
-    //   tag: "Design",
-    // },
   ];
 
   return (
